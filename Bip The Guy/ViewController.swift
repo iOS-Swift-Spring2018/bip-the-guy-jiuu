@@ -75,7 +75,6 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     
     // This method is required so that the UIImagePickerController can be canceled by the user without picking an image.
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
-        // All we need to do is call the dismiss method.
         dismiss(animated: true, completion: nil)
     }
     
